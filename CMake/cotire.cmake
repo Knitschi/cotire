@@ -1456,7 +1456,7 @@ function (cotire_generate_prefix_header _prefixFile)
 	elseif (_option_COMPILER_ID MATCHES "GNU")
 		set (_prologue "#pragma GCC system_header")
 	elseif (_option_COMPILER_ID MATCHES "MSVC")
-		set (_prologue "#pragma warning(push, 0)")
+		set (_prologue "#pragma warning(push, 0)\n#pragma warning(disable : 4996)")
 		set (_epilogue "#pragma warning(pop)")
 	elseif (_option_COMPILER_ID MATCHES "Intel")
 		# Intel compiler requires hdrstop pragma to stop generating PCH file
