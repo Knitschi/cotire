@@ -314,7 +314,7 @@
 ## 1.0.5 (2012-03-26)
 
 * fix Visual Studio C++ 2010 compilation of example project.
-* enhance heuristic for #include_next directive detection.
+* enhance heuristic for @code #include_next @endcode directive detection.
 * fix llvm-3.0.src.patch for GCC 4.6 compilation.
 
 ## 1.0.4 (2012-03-24)

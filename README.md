@@ -115,23 +115,23 @@ known issues
   Multiple targets can share a generated prefix header, though (see the [cotire manual][manual]).
 * Cotire is not compatible with [Xoreax IncrediBuild][XGE].
 
-[ccch]:https://ccache.samba.org/
-[ccrc]:https://cmake.org/Wiki/CMake_Cross_Compiling
-[cgwn]:http://www.cygwin.com/
-[clang]:http://clang.llvm.org/
-[cmk]:https://cmake.org/download/
-[gcc]:https://gcc.gnu.org/
-[manual]:https://github.com/sakra/cotire/blob/master/MANUAL.md
-[mingw]:http://www.mingw.org/
-[ninja]:https://ninja-build.org/
-[pch]:https://en.wikipedia.org/wiki/Precompiled_header
-[pfh]:https://en.wikipedia.org/wiki/Prefix_header
-[scu]:https://en.wikipedia.org/wiki/Single_Compilation_Unit
-[vslstd]:https://www.visualstudio.com/
+[ccch]: https://ccache.samba.org/
+[ccrc]: https://cmake.org/Wiki/CMake_Cross_Compiling
+[cgwn]: http://www.cygwin.com/
+[clang]: http://clang.llvm.org/
+[cmk]: https://cmake.org/download/
+[gcc]: https://gcc.gnu.org/
+[manual]: https://github.com/sakra/cotire/blob/master/MANUAL.md/
+[mingw]: http://www.mingw.org/
+[ninja]: https://ninja-build.org/
+[pch]: https://en.wikipedia.org/wiki/Precompiled_header
+[pfh]: https://en.wikipedia.org/wiki/Prefix_header
+[scu]: https://en.wikipedia.org/wiki/Single_Compilation_Unit
+[vslstd]: https://www.visualstudio.com/
 [xcdt]:https://developer.apple.com/xcode/
-[PCHH]:https://gcc.gnu.org/wiki/PCHHaters
-[EoUB]:https://engineering-game-dev.com/2009/12/15/the-evils-of-unity-builds/
-[jom]:http://wiki.qt.io/Jom
-[intel]:https://software.intel.com/en-us/c-compilers
-[XGE]:https://www.incredibuild.com/
-[shrp]:http://unriskinsight.blogspot.co.at/2014/09/sharpen-your-tools.html
+[PCHH]: https://gcc.gnu.org/wiki/PCHHaters
+[EoUB]: https://engineering-game-dev.com/2009/12/15/the-evils-of-unity-builds/
+[jom]: http://wiki.qt.io/Jom
+[intel]: https://software.intel.com/en-us/c-compilers
+[XGE]: https://www.incredibuild.com/
+[shrp]: http://unriskinsight.blogspot.co.at/2014/09/sharpen-your-tools.html

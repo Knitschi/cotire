@@ -502,6 +502,7 @@ As an example, if these properties are set on a source file of the example proje
 
 This will make cotire add undefs to the generated unity source file.
 
+
     #ifdef __cplusplus
     #include "/Users/sakra/Documents/cotire/src/main.cpp"
     #undef min
@@ -511,8 +512,9 @@ This will make cotire add undefs to the generated unity source file.
     #include "/Users/sakra/Documents/cotire/src/log.cpp"
     #endif
 
+
 The properties `COTIRE_UNITY_SOURCE_PRE_UNDEFS` and `COTIRE_UNITY_SOURCE_POST_UNDEFS` can also be
-set on targets. Cotire will add `#undef` directives for each source file in the unity source then.
+set on targets. Cotire will add @code #undef @endcode directives for each source file in the unity source then.
 
 ### enabling verbose builds
 
