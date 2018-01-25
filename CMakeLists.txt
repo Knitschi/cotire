@@ -7,9 +7,10 @@ if (POLICY CMP0058)
 	cmake_policy(SET CMP0058 NEW)
 endif()
 
-project (CotireExample)
+project(cotire)
 
-set (CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/CMake")
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMake")
+
 
 if (NOT CMAKE_VERSION VERSION_LESS "3.1.0")
 	set (CMAKE_CXX_STANDARD "98")
@@ -18,4 +19,4 @@ endif()
 
 include(cotire)
 
-add_subdirectory(src)
+#add_subdirectory(src)
